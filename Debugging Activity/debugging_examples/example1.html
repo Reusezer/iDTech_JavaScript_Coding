@@ -1,0 +1,20 @@
+<!--
+    Description: This program finds all even numbers between 0 - 100 and stores the values in an array.
+    TODO: Use breakpoints to help your instructor debug this program.
+-->
+
+<html>
+    <script>
+        const evenNumbers = [];
+
+        function getEvenNumbers() {
+            for (let i = 0; i <= 100; i++) {
+                if ((i % 2) == 0) {
+                    evenNumbers.push(i);
+                }
+            }
+            return evenNumbers;
+        }
+        console.log(getEvenNumbers());
+    </script>
+</html>
